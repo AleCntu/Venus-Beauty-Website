@@ -93,11 +93,12 @@ h3 {
 
 .service-block {
     display: flex;
-    border: 1px solid #beb9ae;
-    box-shadow: 2.8px 10.6px 24.9px -4px rgba(0, 0, 0, 0.062),
-        4px 15px 54px -4px rgba(0, 0, 0, 0.13);
+    border: 1px solid #beb9ae1e;
+    box-shadow: 2.8px 10.6px 24.9px -4px rgba(184, 167, 167, 0.981),
+        4px 15px 54px -4px rgba(235, 227, 230, 0.946);
     flex-direction: column;
     align-items: center;
+    margin: 0 30px 15px 30px;
 }
 
 .shadow-break {
@@ -120,6 +121,32 @@ h3 {
 .blogger {
     margin: 25px;
 }
+
+/*#### End of Reviews ####*/
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.hours-open {
+    text-align: center;
+}
+
+.hours {
+    margin-bottom: 22px;
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.contact {
+    margin-bottom: 22px;
+}
+
+/*#### End of  */
 
 footer {
     background-color: #839b85;

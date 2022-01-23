@@ -5,153 +5,236 @@
         <link rel="stylesheet" href="./stylesheet.css" />
     </head>
 
+    <!--#### End of Head ####-->
+
     <body>
         <header>
             <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>Services</li>
-                    <li>About</li>
-                    <li>Contact</li>
+                <ul class="nav-flex">
+                    <li class="nav-item">Home</li>
+                    <li class="nav-item">Services</li>
+                    <li class="nav-item">About</li>
+                    <li class="nav-item">Contact</li>
                 </ul>
             </nav>
         </header>
 
-        <main>
-            <div>
-                <h1>Venus Beauty & Spa</h1>
-                <img src="images/logo.jpg" alt="circle with woman and moon" />
-            </div>
-            <div>
-                <h2>About</h2>
-                <p>
-                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua."
+        <!--#### End of Nav ####-->
+
+        <div class="logo-main">
+            <h1>Venus Beauty & Spa</h1>
+
+            <img
+                src="images/logo.jpg"
+                alt="circle with woman and moon"
+                class="image-main"
+            />
+        </div>
+
+        <!--#### End of logo and image ####-->
+
+        <div>
+            <h2>About</h2>
+            <p class="about">
+                "Venus Beauty & Spa believes in restoration of the body &
+                building confidence in one's self. As Solagne once quoted.
+                Confidence comes with beauty, and we are determined on showing
+                you how beautiful you really are!"
+            </p>
+
+            <br />
+
+            <p class="about">
+                <em
+                    >“When you take care of yourself, you're a better person for
+                    others. When you feel good about yourself, you treat others
+                    better."</em
+                >
+                <br />
+
+                <em>- Solange</em>
+            </p>
+        </div>
+
+        <hr class="shadow-break" />
+
+        <!--#### End of About ####-->
+
+        <h2>Services</h2>
+
+        <main class="service-container">
+            <div class="service-block">
+                <img
+                    src="images/manicures.jpg"
+                    alt="woman recieving manicure"
+                    class="flex-service"
+                />
+                <h3>Manicures</h3>
+                <p class="flex-description">
+                    Our manicures include a range of delux features from cuticle
+                    care to dipping your hands in warm wax to give you silkier
+                    skin. Don't be afraid to ask our nail artists about full
+                    sets and custom designs!
                 </p>
             </div>
-            <div>
-                <h2>Services</h2>
-                <div>
-                    <img
-                        src="images/manicures.jpg"
-                        alt="woman recieving manicure"
-                        class="flex-image"
-                    />
-                    <h3>Manicures</h3>
-                    <p>
-                        "Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua."
-                    </p>
-                </div>
-                <div>
-                    <img
-                        src="images/pedicure.jpg"
-                        alt="woman recieving pedicure"
-                        class="flex-image"
-                    />
-                    <h3>Pedicures</h3>
-                    <p>
-                        "Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua."
-                    </p>
-                </div>
-                <div>
-                    <img
-                        src="images/massage.jpg"
-                        alt="woman recieving massage"
-                        class="flex-image"
-                    />
-                    <h3>Massages</h3>
-                    <p>
-                        "Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua."
-                    </p>
-                </div>
-                <div>
-                    <img
-                        src="images/facial.jpg"
-                        alt="woman recieving facial"
-                        class="flex-image"
-                    />
-                    <h3>Facials</h3>
-                    <p>
-                        "Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua."
-                    </p>
-                </div>
-                <div>
-                    <img
-                        src="images/waxing.jpg"
-                        alt="leg being waxxed"
-                        class="flex-image"
-                    />
-                    <h3>Waxing</h3>
-                    <p>
-                        "Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua."
-                    </p>
-                </div>
-                <div>
-                    <img
-                        src="images/microblading.jpg"
-                        alt="woman getting her eyebrows done"
-                        class="flex-image"
-                    />
-                    <h3>Microblading</h3>
-                    <p>
-                        "Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua."
-                    </p>
-                </div>
-                <div>
-                    <h2>Reviws</h2>
-                    <article>
-                        "Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua."
-                    </article>
-                    <article>
-                        "Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua."
-                    </article>
-                    <article>
-                        "Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua."
-                    </article>
-                    <section>
-                        <h2>Subscribe To Our NewsLetter!</h2>
-                        <h3>Name:</h3>
-                        <h3>Email:</h3>
-                    </section>
-                </div>
+
+            <br />
+
+            <div class="service-block">
+                <img
+                    src="images/pedicure.jpg"
+                    alt="woman recieving pedicure"
+                    class="flex-service"
+                />
+                <h3>Pedicures</h3>
+                <p class="flex-description">
+                    Our luxurious pedicures include relaxing foot massages, as
+                    well as warm wax dips to smoothen and increase the moisture
+                    on your skin.
+                </p>
+            </div>
+
+            <br />
+
+            <div class="service-block">
+                <img
+                    src="images/massage.jpg"
+                    alt="woman recieving massage"
+                    class="flex-service"
+                />
+                <h3>Massages</h3>
+                <p class="flex-description">
+                    Leave your worries behind with us. Our highly expierenced
+                    massage therapists are here to help. Included with this
+                    would be a relaxing hot rocks followed by a blend of brown
+                    sugar, coffee, and crushed almond scrub.
+                </p>
+            </div>
+
+            <br />
+
+            <div class="service-block hide-img">
+                <img
+                    src="images/facial.jpg"
+                    alt="woman recieving facial"
+                    class="flex-service"
+                />
+                <h3>Facials</h3>
+                <p class="flex-description">
+                    We carry a wide range of facial options that will soothe and
+                    relax your skin. Every facial is done with all organic
+                    products to keep your skin hydrated and healthy.
+                </p>
+            </div>
+
+            <br />
+
+            <div class="service-block hide-img">
+                <img
+                    src="images/waxing.jpg"
+                    alt="leg being waxxed"
+                    class="flex-service"
+                />
+                <h3>Waxing</h3>
+                <p class="flex-description">
+                    We are now introducing a new organic waxxing method,
+                    <em>Sugar Waxxing</em>! Sugar Waxxing is a mixture with a
+                    candy like consistency. It is applied against the direction
+                    of hair growth and removed in the direction of hair growth,
+                    removing the hair from the root.
+                </p>
+            </div>
+
+            <br />
+
+            <div class="service-block hide-img">
+                <img
+                    src="images/microblading.jpg"
+                    alt="woman getting her eyebrows done"
+                    class="flex-service"
+                />
+                <h3>Microblading</h3>
+                <p class="flex-description">
+                    We now have a team of <em>highly</em> expiernced permenent
+                    makeup artists! They will shape then shade your eyebrows and
+                    have you looking flawless in a matter of a session.
+                </p>
             </div>
         </main>
+        <br />
+        <!--#### End of Services ####-->
+
+        <div class="reviews">
+            <h2>Reviews</h2>
+            <article class="blogger">
+                <em
+                    >"I Visited this salon by chance and quickly realized I
+                    discovered a hidden gem!"</em
+                >
+            </article>
+            <br />
+            <article class="blogger">
+                <em
+                    >"The atmosphere of this place was so light and peaceful.
+                    The staff were all very loevely as well, I will be returning
+                    soon!"</em
+                >
+            </article>
+            <br />
+            <article class="blogger">
+                <em
+                    >"I'm in love with this place and staff! I've been coming
+                    here for about 4 years now and the quality never fails. I
+                    will forever be a loyal customer to Venus! "</em
+                >
+            </article>
+        </div>
+
+        <hr class="shadow-break" />
+
+        <!--#### End of Reviews ####-->
+
+        <section>
+            <div>
+                <h3>Hours</h3>
+                <ul>
+                    <li>Monday: 9:30 a.m. - 6:30 p.m.</li>
+                    <br />
+                    <li>Tuesday: 9:30 a.m. - 6:30 p.m.</li>
+                    <br />
+                    <li>Wednsday: 9:30 a.m. - 6:30 p.m.</li>
+                    <br />
+                    <li>Thursday: 9:30 a.m. - 6:30 p.m.</li>
+                    <br />
+                    <li>Friday: 9:30 a.m. - 6:30 p.m.</li>
+                    <br />
+                    <li>Saturday: 9:00 a.m. - 7:30 p.m.</li>
+                    <br />
+                    <li>Sunday: Closed</li>
+                    <br />
+                </ul>
+            </div>
+
+            <div>
+                <h3>Contact</h3>
+                <ul>
+                    <li>Phone#</li>
+                    <br />
+                    <li>Example@email.com</li>
+                </ul>
+            </div>
+        </section>
+
+        <!--#### End of Contact/Gen. info ####-->
 
         <footer>
-            <h3>Hours</h3>
-            <ul>
-                <li>Monday: 9:30 a.m. - 6:30 p.m.</li>
-                <li>Tuesday: 9:30 a.m. - 6:30 p.m.</li>
-                <li>Wednsday: 9:30 a.m. - 6:30 p.m.</li>
-                <li>Thursday: 9:30 a.m. - 6:30 p.m.</li>
-                <li>Friday: 9:30 a.m. - 6:30 p.m.</li>
-                <li>Saturday: 9:00 a.m. - 7:30 p.m.</li>
-                <li>Sunday: Closed</li>
-            </ul>
-            <h3>Contact</h3>
-            <ul>
-                <li>Phone #</li>
-                <li>Email</li>
-            </ul>
+            <form class="newsletter">
+                <h2 class="nesletter-title">Subscribe To Our NewsLetter!</h2>
+                <h3 class="nesletter-form">Name:</h3>
+                <h3 class="nesletter-form">Email:</h3>
+            </form>
         </footer>
+
+        <!--#### End of Footer ####-->
     </body>
 </html>

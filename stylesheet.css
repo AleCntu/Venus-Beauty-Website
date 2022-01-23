@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3eee2;
+}
+
+/* ###### Nav Bar ###### */
+
+nav {
+    background-color: #99ab9f;
+    color: #fff;
+    width: 100%;
+    min-height: 25px;
+    margin-bottom: 45px;
+}
+
+.nav-flex {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+    font-size: 22px;
+    justify-content: space-evenly;
+}
+
+.nav-item {
+    padding: 10px;
+}
+/* ##### End of Nav ##### */
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.logo-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-main {
+    width: 33.33%;
+    min-width: 200px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+/*#### End of logo and image ####*/
+
+h2 {
+    font-size: 29px;
+    text-align: center;
+    margin: 30px;
+}
+
+.about {
+    text-align: center;
+    font-size: 21;
+    margin: 0 10px;
+}
+
+/*##### End of About ####*/
+
+.service-container {
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.flex-service {
+    height: auto;
+    width: 300px;
+    margin: 15px auto;
+}
+
+.flex-description {
+    font-size: 22;
+    text-align: center;
+    padding: 15px;
+    margin: 0 25px 15px;
+}
+
+.service-block {
+    display: flex;
+    border: 1px solid #beb9ae;
+    box-shadow: 2.8px 10.6px 24.9px -4px rgba(0, 0, 0, 0.062),
+        4px 15px 54px -4px rgba(0, 0, 0, 0.13);
+    flex-direction: column;
+    align-items: center;
+}
+
+.shadow-break {
+    box-shadow: 2.8px 10.6px 24.9px -4px rgba(0, 0, 0, 0.062),
+        4px 15px 54px -4px rgba(0, 0, 0, 0.13);
+    margin: 40px 33%;
+}
+
+.hide-img {
+    display: none;
+}
+
+/*##### End of Services #####*/
+
+.reviews {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.blogger {
+    margin: 25px;
+}
+
+footer {
+    background-color: #839b85;
+    color: #fef9ec;
+}
+
+/* ####### point break of 600px+ ###### */
+
+@media screen and(min-width: 600px) {
+    .nav-flex {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .service-block {
+        flex: row;
+    }
+}

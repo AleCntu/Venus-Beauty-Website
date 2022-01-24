@@ -217,13 +217,39 @@
             </div>
         </section>
 
+        <br />
+
         <!--#### End of Contact/Gen. info ####-->
 
         <footer>
-            <form class="newsletter">
-                <h2 class="nesletter-title">Subscribe To Our NewsLetter!</h2>
-                <h3 class="nesletter-form">Name:</h3>
-                <h3 class="nesletter-form">Email:</h3>
+            <form class="newsletter-form">
+                <div class="newsletter">
+                    <h4>Subscribe to our NewsLetter</h4>
+                </div>
+
+                <div class="newsletter">
+                    <input
+                        type="text"
+                        placeholder="Name"
+                        name="name"
+                        required
+                    />
+                    <input
+                        type="text"
+                        placeholder="Email"
+                        name="mail"
+                        required
+                    />
+                    <label>
+                        <input
+                            type="checkbox"
+                            checked="checked"
+                            name="subscribe"
+                        />
+                        Offers & Daily specials
+                    </label>
+                    <input type="submit" value="Subscribe" />
+                </div>
             </form>
         </footer>
 

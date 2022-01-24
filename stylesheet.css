@@ -88,10 +88,11 @@ h3 {
 }
 
 .flex-description {
-    font-size: 22;
+    /* font-size: 22; */
     text-align: center;
     padding: 15px;
     margin: 0 25px 15px;
+    max-width: 300px;
 }
 
 .service-block {
@@ -102,6 +103,7 @@ h3 {
     flex-direction: column;
     align-items: center;
     margin: 0 30px 15px 30px;
+    padding: 10px;
 }
 
 .shadow-break {
@@ -189,13 +191,27 @@ input[type="submit"] {
 
 /* ####### point break of 600px+ ###### */
 
-@media screen and(min-width: 600px) {
+@media screen and (min-width: 600px) {
     .nav-flex {
         flex-direction: row;
         align-items: center;
     }
 
+    .hide-img {
+        display: flex;
+    }
+
+    .service-container {
+        flex-flow: row wrap;
+        align-items: center;
+    }
+
     .service-block {
-        flex: row;
+        width: 30%;
+        max-height: 363px;
+    }
+
+    .flex-description {
+        max-width: 400px;
     }
 }

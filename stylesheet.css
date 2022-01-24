@@ -209,6 +209,8 @@ input[type="submit"] {
     .service-block {
         width: 30%;
         max-height: 363px;
+        min-width: 500px;
+        margin: 0 auto 15px;
     }
 
     .flex-description {
